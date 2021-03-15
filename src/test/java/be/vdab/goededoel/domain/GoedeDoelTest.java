@@ -21,7 +21,7 @@ class GoedeDoelTest {
 
 	@Test
 	void eenNieuwDoelHeeftNogGeenOpbrengst() {
-		assertThat(doel.getOpgebracht()).isOne();
+		assertThat(doel.getOpgebracht()).isZero();
 	}
 
 }
